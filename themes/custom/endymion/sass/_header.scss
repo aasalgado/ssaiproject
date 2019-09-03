@@ -1,0 +1,38 @@
+.main-header{
+    height:300px;
+    background:url(../images/brick-wall.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+#block-endymion-branding {
+    text-align: center;
+}
+
+#block-endymion-branding a{
+    font-size: 6vw;
+    color: #000;
+    display: block;
+    padding-top: 9vw;
+    text-decoration: none;
+}
+
+.main-navigation{
+    width: fit-content;
+    position: absolute;
+    top: 6%;
+    left: 77%;
+    li {
+        float: left;
+    }
+    a{
+        display: block;
+        color: #000;
+        text-decoration: none;
+        padding: 0 0.5vw;
+        font-size: 1.6vw;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}

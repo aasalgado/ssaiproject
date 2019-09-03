@@ -1,0 +1,96 @@
+/* =======================================================================
+## ++ Globals
+========================================================================== */
+html{
+    font-size: 100%;
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+    background: #FFF;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2vw;
+    background: #F5F5F5;
+    margin-top: 0.25vw;
+}
+
+h3.field-content{    
+    font-size: 1.5vw;}
+
+h3.field-content a{    
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    }
+
+div.field-content p{
+    line-height: 1.25;
+    text-align: left;
+}
+
+span.field-content a{
+    text-decoration: none;
+    color: darkred;
+    line-height: 1.5;
+}
+
+div.views-row{
+    padding-top: 1vw;
+}
+
+div.views-field-field-email-address .field-content{
+    display: inline-block;
+}
+
+div.field-content.user-phone-number{
+    display: none;
+}
+
+h1.js-quickedit-page-title{
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+div.quickedit-field div{
+    display: inline-block;
+}
+/* =======================================================================
+## ++ Cleafix
+========================================================================== */
+
+/* float clearing for IE6 */
+* html .clearfix{
+ height: 1%;
+ overflow: visible;
+}
+
+/* float clearing for IE7 */
+*+html .clearfix{
+ min-height: 1%;
+}
+
+/* float clearing for everyone else */
+.clearfix:after{
+ clear: both;
+ content: ".";
+ display: block;
+ height: 0;
+ visibility: hidden;
+ font-size: 0;
+}
+
+.clr{clear:both;}
+
+
+
+
+
+
